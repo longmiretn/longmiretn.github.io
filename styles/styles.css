@@ -483,7 +483,6 @@ section {
   color: var(--color-white);
   display: none; /* Hide the summary by default */
   font-size: 0.9rem;
-  margin-top: 0.5rem;
 }
 
 .portfolios .portfolio-item:hover .hover-items .summary {
