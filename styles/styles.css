@@ -476,42 +476,6 @@ section {
   transform: scale(1);
 }
 
-.portfolios .portfolio-item .hover-items .icons .summary-icon {
-  position: relative;
-  width: 50px; /* Adjust the size as per your preference */
-  height: 50px; /* Adjust the size as per your preference */
-  background-color: var(--color-primary);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 1rem;
-  cursor: pointer;
-}
-
-.portfolios .portfolio-item .hover-items .icons .summary-icon i {
-  color: var(--color-white);
-  font-size: 1.5rem;
-}
-
-.portfolios .portfolio-item .hover-items .icons .summary-icon .summary-text {
-  display: none;
-  position: absolute;
-  top: calc(100% + 10px); /* Position it below the summary icon */
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--color-primary);
-  color: var(--color-white);
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 14px; /* Adjust the font size as per your preference */
-  white-space: nowrap;
-}
-
-.portfolios .portfolio-item .hover-items .icons .summary-icon:hover .summary-text {
-  display: block;
-}
-
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
