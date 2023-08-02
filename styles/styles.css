@@ -430,7 +430,7 @@ section {
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;   /* CHANGE MADE */
   flex-direction: column;
   opacity: 0;
   transform: scale(0);
@@ -440,6 +440,7 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1rem;
+  align-self: flex-start;   /* CHANGE MADE */
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
