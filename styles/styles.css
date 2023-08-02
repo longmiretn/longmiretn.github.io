@@ -412,7 +412,6 @@ section {
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
-  padding: 10px; /* Add padding around the portfolio items */
   text-align: center; /* Center the project titles */
 }
 .portfolios .portfolio-item img {
