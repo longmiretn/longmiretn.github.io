@@ -445,7 +445,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
 }
 .portfolios .portfolio-item .hover-items .icons .icon {
   background-color: var(--color-primary);
