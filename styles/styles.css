@@ -476,22 +476,35 @@ section {
   transform: scale(1);
 }
 
-/* Add styles for the new summary icon */
 .portfolios .portfolio-item .hover-items .icons .summary-icon {
   position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.portfolios .portfolio-item .hover-items .icons .summary-icon i {
+  color: var(--color-white);
 }
 
 .portfolios .portfolio-item .hover-items .icons .summary-icon .summary-text {
   display: none;
   position: absolute;
-  top: -40px;
-  left: -30px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 4px 8px;
   border-radius: 4px;
-  width: 200px;
-  font-size: 14px;
+  font-size: 14px; /* Adjust the font size as per your preference */
+  white-space: nowrap;
 }
 
 .portfolios .portfolio-item .hover-items .icons .summary-icon:hover .summary-text {
