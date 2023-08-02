@@ -410,7 +410,7 @@ section {
   margin-top: 3rem;
 }
 .portfolios .portfolio-item {
-  position: relative;
+  position: absolute;
   border-radius: 15px;
   padding: 10px; /* Add padding around the portfolio items */
   text-align: center; /* Center the project titles */
