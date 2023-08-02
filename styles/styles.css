@@ -482,6 +482,8 @@ section {
   border-radius: 0 0 15px 15px; /* Add rounded corners at the bottom */
   color: var(--color-white);
   display: none; /* Hide the summary by default */
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
 }
 
 .portfolios .portfolio-item:hover .hover-items .summary {
