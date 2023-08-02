@@ -476,6 +476,28 @@ section {
   transform: scale(1);
 }
 
+/* Add styles for the new summary icon */
+.portfolios .portfolio-item .hover-items .icons .summary-icon {
+  position: relative;
+}
+
+.portfolios .portfolio-item .hover-items .icons .summary-icon .summary-text {
+  display: none;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  width: 200px;
+  font-size: 14px;
+}
+
+.portfolios .portfolio-item .hover-items .icons .summary-icon:hover .summary-text {
+  display: block;
+}
+
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
