@@ -436,11 +436,16 @@ section {
   opacity: 0;
   transform: scale(0);
   transition: all 0.4s ease-in-out;
+  margin-bottom: 1rem;
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
   color: var(--color-white);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  max-height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
@@ -458,6 +463,7 @@ section {
   margin: 0 1rem;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  margin-top: 1rem;
 }
 .portfolios .portfolio-item .hover-items .icons .icon i {
   font-size: 1.5rem;
