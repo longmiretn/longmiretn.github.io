@@ -430,7 +430,7 @@ section {
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;  
+  align-items: center;  
   flex-direction: column;
   opacity: 0;
   transform: scale(0);
@@ -445,6 +445,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .portfolios .portfolio-item .hover-items .icons .icon {
   background-color: var(--color-primary);
@@ -457,8 +458,6 @@ section {
   margin: 0 1rem;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  position: relative;
-  z-index: 2;
 }
 .portfolios .portfolio-item .hover-items .icons .icon i {
   font-size: 1.5rem;
@@ -484,7 +483,6 @@ section {
   color: var(--color-white);
   display: none; /* Hide the summary by default */
   font-size: 0.9rem;
-  z-index: 1;
 }
 
 .portfolios .portfolio-item:hover .hover-items .summary {
